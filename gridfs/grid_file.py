@@ -429,7 +429,7 @@ class GridOut(object):
           - `size` (optional): the number of bytes to read
         """
         if size == 0:
-            return ""
+            return binary_type()
 
         remainder = int(self.length) - self.__position
         if size < 0 or size > remainder:
