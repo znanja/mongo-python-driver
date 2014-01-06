@@ -276,7 +276,7 @@ if should_run_tests():
 
 setup(
     name="pymongo",
-    version=version + "znanja1",
+    version=version + "-znanja1",
     description="Python driver for MongoDB <http://www.mongodb.org>",
     long_description=readme_content,
     author="Mike Dirolf",
